@@ -39,7 +39,7 @@ const handleopen=()=>{
             <Navbar.Brand>Seller Markert</Navbar.Brand>
           </LinkContainer>
           
-          <Navbar.Toggle aria-controls='basic-navbar-nav'style={{"backgroundColor":"black"}} />
+            <Navbar.Toggle aria-controls='basic-navbar-nav'style={{"backgroundColor":"white"}} >profile</Navbar.Toggle>
           <Navbar.Collapse id='basic-navbar-nav'>
             <Route render={({ history }) => <SearchBox history={history} />} />
             <Nav className='ml-auto'>
